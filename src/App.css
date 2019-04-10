@@ -1,33 +1,101 @@
-.App {
-  text-align: center;
+.topDiv{
+    margin-top: -56px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.About{
+    background-color: rgb(225, 238, 247);
+    font-size:20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Skills{
+    background-color: white;
+    font-size:20px;
 }
 
-.App-link {
-  color: #61dafb;
+.Education{
+    background-color: rgb(225, 238, 247);
+    font-size:20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Employment{
+    background-color: white;
+    font-size:20px;
+}
+
+.ContactMe{
+    background-color: rgb(225, 238, 247);
+    font-size:20px;
+    
+}
+
+.profilePlate{
+    
+    max-width: 500px; 
+    height: 200px; 
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 40px;
+    font-family: Merriweather;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+     0   -2px 0 #000,
+     2px -2px 0 #000,
+     2px  0   0 #000,
+     2px  2px 0 #000,
+     0    2px 0 #000,
+    -2px  2px 0 #000,
+    -2px  0   0 #000;
+}
+
+.home, .about, .contactMe, .skills, .employment, .education{
+    background-color:transparent;
+    color: white !important;
+       
+}
+
+
+
+.home{
+    font-weight:bold;
+    
+}
+
+.home:hover, .about:hover, .contactMe:hover, .skills:hover, .employment:hover, .education:hover{
+    color:lightskyblue !important;
+    cursor:pointer;
+}
+
+.linkitem{
+    color:transparent;
+}
+
+
+
+
+
+.flipFlop{
+    border: 0;
+    margin: -20px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    
+}
+
+.flipFlop:hover{
+    
+    cursor: pointer !important;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card {
+    display:inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
 }
